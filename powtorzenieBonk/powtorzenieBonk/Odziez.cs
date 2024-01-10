@@ -19,19 +19,19 @@ namespace powtorzenieBonk
             this.ilosc = ilosc;
         }
 
-        public int aktualnaCena()
+        public double aktualnaCena()
         {
-            throw new NotImplementedException();
+            return cena;
         }
 
         public int dostepnaIlosc()
         {
-            throw new NotImplementedException();
+            return ilosc;
         }
 
-        public int wyswietlInfo()
+        public string wyswietlInfo()
         {
-            throw new NotImplementedException();
+            return info;
         }
     }
 }

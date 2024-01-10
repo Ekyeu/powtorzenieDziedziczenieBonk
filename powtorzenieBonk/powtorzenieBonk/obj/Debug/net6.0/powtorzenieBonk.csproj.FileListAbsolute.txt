@@ -1,0 +1,14 @@
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\bin\Debug\net6.0\powtorzenieBonk.exe
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\bin\Debug\net6.0\powtorzenieBonk.deps.json
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\bin\Debug\net6.0\powtorzenieBonk.runtimeconfig.json
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\bin\Debug\net6.0\powtorzenieBonk.dll
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\bin\Debug\net6.0\powtorzenieBonk.pdb
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.AssemblyInfoInputs.cache
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.AssemblyInfo.cs
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.dll
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\refint\powtorzenieBonk.dll
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.pdb
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\powtorzenieBonk.genruntimeconfig.cache
+C:\Users\student\source\repos\powtorzenieBonk\powtorzenieBonk\obj\Debug\net6.0\ref\powtorzenieBonk.dll

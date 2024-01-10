@@ -11,25 +11,80 @@ namespace powtorzenieBonk
         List<IProdukt> koszyk = new List<IProdukt>();
         string imie = "Janek";
         string nazwisko = "Towarek";
+        double calykoszyk = 0.0;
 
-        public Klient(List<IProdukt> koszyk, string imie, string nazwisko) :base (imie, nazwisko) 
+
+        public Klient(string imie, string nazwisko) :base (imie, nazwisko) 
         {
-            this.koszyk = koszyk;
             this.imie = imie;
             this.nazwisko = nazwisko;
         }
 
-        public void dodawanie(IProdukt produkt)
+        public void dodawanieKsiazki(IProdukt produkt, Ksiazka produkt1)
         {
             if(produkt == null)
             {
-                Console.WriteLine("Nie mozna dodac, gdyz nie ma produktow dostepnych");
+                Console.WriteLine("Nie mozna dodac, gdyz nie ma dostepnych produktow");
             }
             else
             {
                 koszyk.Add(produkt);
+                produkt1.ilosc--;
+                calykoszyk += produkt1.cena;
+
             }
+            Console.WriteLine($"DOstepna ilosc {produkt1.ilosc}");
         }
 
+        public void dodawanieELektroniki(IProdukt produkt, Elektronika produkt1)
+        {
+            if (produkt == null)
+            {
+                Console.WriteLine("Nie mozna dodac, gdyz nie ma dostepnych produktow");
+            }
+            else
+            {
+                koszyk.Add(produkt);
+                produkt1.ilosc--;
+                calykoszyk += produkt1.cena;
+            }
+            Console.WriteLine($"DOstepna ilosc {produkt1.ilosc}");
+        }
+
+        public void dodawanieOdziez(IProdukt produkt, Odziez produkt1)
+        {
+            if (produkt == null)
+            {
+                Console.WriteLine("Nie mozna dodac, gdyz nie ma dostepnych produktow");
+            }
+            else
+            {
+                koszyk.Add(produkt);
+                produkt1.ilosc--;
+                calykoszyk += produkt1.cena;
+            }
+            Console.WriteLine($"DOstepna ilosc {produkt1.ilosc}");
+        }
+
+
+        public void cenaKsiazka(Ksiazka produkt1)
+        {
+            Console.WriteLine($"Cena Ksiazka ;P  {produkt1.cena}");
+        }
+
+        public void cenaElektronika(Elektronika produkt1)
+        {
+            Console.WriteLine($"Cena Elektronika ;P  {produkt1.cena}");
+        }
+
+        public void cenaOdziez(Odziez produkt1)
+        {
+            Console.WriteLine($"Cena Odziezs ;P  {produkt1.cena}");
+        }
+
+        public void cenaKoszyka()
+        {
+            Console.WriteLine($"Cena koszyka ;P  {calykoszyk}");
+        }
     }
 }
